@@ -1,0 +1,46 @@
+.small-cards {
+  text-decoration: none;
+  background-color: var(--gray-one);
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  height: 14.2172em;
+  padding-left: 0.991em;
+  color: black;
+  margin-top: 0.991em;
+}
+.small-cards__image-container {
+  width: 15.406em;
+  height: 11.9388em;
+  display: flex;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.small-cards__image-container img {
+  object-fit: cover;
+  width: 100%;
+}
+.small-cards__information {
+  margin-left: 2.0312em;
+}
+.small-cards__information__title {
+  font-size: 2.477rem;
+  font-weight: 500;
+  margin-bottom: 0.1em;
+}
+.small-cards__information__container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.6em;
+}
+.small-cards__information__description {
+  font-size: 1.4866rem;
+}
+.small-cards__information__market-icon {
+  width: 1.52em;
+  display: flex;
+  margin-right: 0.746em;
+}
+.small-cards__information__market-icon img {
+  width: 100%;
+}
